@@ -344,48 +344,6 @@ p {
   text-transform: uppercase;
 }
 
-@media screen and (min-width: 768px) {
-  .section-one {
-    padding-top: 60px;
-    padding-bottom: 80px;
-  }
-
-  .sect-one-list-two {
-    flex-direction: row;
-  }
-
-  .sect-one-list-two .one-list-item {
-    width: 298px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .section-one {
-    padding-top: 100px;
-    padding-bottom: 80px;
-  }
-
-  .sect-one-list-two {
-    flex-direction: row;
-  }
-
-  .sect-one-list .one-list-item {
-    width: 372px;
-  }
-
-  .one-list-item .item-text {
-    font-size: 18px;
-  }
-
-  .sect-one-subtitle {
-    font-size: 24px;
-  }
-
-  .sect-one-list-two .one-list-item {
-    width: 328px;
-  }
-}
-
 /* section-two */
 
 .section-two {
