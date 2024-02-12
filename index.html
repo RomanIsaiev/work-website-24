@@ -390,7 +390,7 @@
             </p>
           </div>
           <div class="buy-button-container">
-            <button class="buy-button">Купити</button>
+            <button class="buy-button" data-action="open-modal">Купити</button>
             <div class="header-sale-mark">
               <picture
                 ><source
@@ -530,7 +530,9 @@
               <span> приведе вас До фінансової незалежності</span>
             </h3>
             <div class="buy-button-container">
-              <button class="buy-button">Купити</button>
+              <button class="buy-button" data-action="open-modal">
+                Купити
+              </button>
               <div class="header-sale-mark">
                 <picture
                   ><source
@@ -642,10 +644,31 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop js-backdrop">
+      <div class="modal">
+        <button
+          class="modal-close-button"
+          type="button"
+          data-action="close-modal"
+        >
+          <img
+            src="./src/images/close-modal-icon.svg"
+            alt=" close"
+            width="30"
+            height="30"
+          />
+        </button>
+        <div id="kwiga-widget-1706365153"></div>
+      </div>
+    </div>
     <script src="./src/js/jquery-3.7.0.min.js" type="module"></script>
     <script src="./src/js/faq.js" type="module"></script>
     <script src="./src/js/timer.js" type="module"></script>
     <script src="./src/js/scroll.js" type="module"></script>
-    <!-- <script src="./src/js/js-modal.js" type="module"></script> -->
+    <script src="./src/js/js-modal.js" type="module"></script>
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1706365153&uuid=d47f9773-9fc8-4f4f-9d96-ec9ece3d57aa&producer=https://kwiga.com/"
+    ></script>
   </body>
 </html>
